@@ -19,7 +19,7 @@ const IndexPage = () => (
 						<h1 class="text-uppercase">
 							<span>Hillary Foundation </span> to <br/> help you
 						</h1>
-						<a href="#" class="primary-btn mt-40">Become a Member</a>
+						<a href="/" class="primary-btn mt-40">Become a Member</a>
 					</div>
 				</div>
 			</div>
@@ -87,7 +87,7 @@ const IndexPage = () => (
 						<p>
 							HILLARY FOUNDATION TO HELP YOU
 						</p>
-						<a class="primary-btn" href="#">Become a Member</a>
+						<a class="primary-btn" href="/">Become a Member</a>
 					</div>
 				</div>
 			</div>

@@ -14,10 +14,9 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-source-filesystem`,
+      resolve: `gatsby-remark-copy-linked-files`,
       options: {
-        path: `${__dirname}/extra/js`,
-        name: "js",
+        destinationDir: "static",
       },
     },
     `gatsby-transformer-sharp`,

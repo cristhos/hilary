@@ -34,7 +34,7 @@ const Header = ({ siteTitle }) => (
 						</Link>
 					</h1>
 				</div>
-				<nav id="nav-menu-container">
+				<nav id="nav-menu-container navbar navbar-expand-md">
 					<ul class="nav-menu">
 					
 						<li>

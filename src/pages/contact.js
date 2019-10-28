@@ -45,7 +45,7 @@ const ContactPage = () => (
 					</div>
 				</div>
 				<div class="col-lg-8">
-					<form class="form-area contact-form text-right" id="myForm" action="#" method="post">
+					<form class="form-area contact-form text-right" id="myForm" action="/#" method="post">
 						<div class="row">
 							<div class="col-lg-6 form-group">
 								<input name="name" placeholder="Enter your name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your name'"

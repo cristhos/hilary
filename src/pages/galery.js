@@ -25,7 +25,7 @@ const GaleryPage = () => (
             <div class="text-center">
               <h4 class="mb-10">Get into shape now</h4>
               <p>
-                <a href="#">Book an appointment</a>
+                <a href="/#">Book an appointment</a>
               </p>
             </div>
           </div>
@@ -37,7 +37,7 @@ const GaleryPage = () => (
             <div class="text-center">
               <h4 class="mb-10">Get into shape now</h4>
               <p>
-                <a href="#">Book an appointment</a>
+                <a href="/#">Book an appointment</a>
               </p>
             </div>
           </div>
@@ -49,7 +49,7 @@ const GaleryPage = () => (
             <div class="text-center">
               <h4 class="mb-10">Get into shape now</h4>
               <p>
-                <a href="#">Book an appointment</a>
+                <a href="/#">Book an appointment</a>
               </p>
             </div>
           </div>
@@ -61,7 +61,7 @@ const GaleryPage = () => (
             <div class="text-center">
               <h4 class="mb-10">Get into shape now</h4>
               <p>
-                <a href="#">Book an appointment</a>
+                <a href="/#">Book an appointment</a>
               </p>
             </div>
           </div>
