@@ -18,7 +18,7 @@ const F4Img = () => {
     query {
       placeholderImage: file(relativePath: { eq: "galery/f4.jpg" }) {
         childImageSharp {
-          fluid(maxWidth: 600) {
+          fluid {
             ...GatsbyImageSharpFluid
           }
         }
@@ -26,7 +26,7 @@ const F4Img = () => {
     }
   `)
 
-  return <Img fluid={data.placeholderImage.childImageSharp.fluid} />
+  return <Img class="img-responsive" fluid={data.placeholderImage.childImageSharp.fluid} />
 }
 
 export default  F4Img

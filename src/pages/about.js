@@ -64,7 +64,10 @@ const AboutPage = () => (
 				</div>
 
 				<div class="col-lg-6 about-left">
-					<AboutImg/>
+					<div style={{ maxWidth: `400px`}}>
+						<AboutImg/>
+					</div>
+					
 				</div>
 			</div>
 		</div>

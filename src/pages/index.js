@@ -11,11 +11,13 @@ const IndexPage = () => (
 		<section class="banner-area relative" id="home" >
 			<div class="overlay overlay-bg"></div>
 			<div class="container-fluid">
-				<div class="row fullscreen d-flex align-items-center justify-content-between" >
-					<div class="col-lg-6 col-md-6 banner-img" style={{ marginTop: "150px" }}>
+				<div class="row  align-items-center justify-content-between" >
+					<div class="col-lg-6 col-md-6" style={{ marginTop: "100px" }}>
+						<div style={{ maxWidth: `300px`}}>
 						<BannerImg />
+						</div>
 					</div>
-					<div class="banner-content col-lg-6 col-md-6" style={{ marginTop: "150px"}}>
+					<div class="banner-content col-lg-6 col-md-6" style={{ marginBottom:"20px"}}>
 						<h1 class="text-uppercase">
 							<span>Hillary Foundation </span> to <br/> help you
 						</h1>

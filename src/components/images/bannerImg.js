@@ -18,7 +18,7 @@ const BannerImg = () => {
     query {
       placeholderImage: file(relativePath: { eq: "banner-img.png" }) {
         childImageSharp {
-          fluid {
+          fluid(maxHeight: 300) {
             ...GatsbyImageSharpFluid
           }
         }
@@ -26,7 +26,7 @@ const BannerImg = () => {
     }
   `)
 
-  return <Img fluid={data.placeholderImage.childImageSharp.fluid} />
+  return <Img class="img-responsive" fluid={data.placeholderImage.childImageSharp.fluid} />
 }
 
 export default  BannerImg

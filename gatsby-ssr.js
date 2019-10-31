@@ -8,8 +8,6 @@
 const React = require("react")
 exports.onRenderBody = ({ setPostBodyComponents }) => {
   setPostBodyComponents([
-    <script src="js/easing.min.js"></script>,
-    <script src="js/hoverIntent.js"></script>,
-		<script src="js/superfish.min.js"></script>,
+    <script src="js/main.js"></script>,
   ])
 }
